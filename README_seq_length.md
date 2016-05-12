@@ -5,7 +5,7 @@ This will read a multiple sequence alignment file, and for each entry print the 
 Any file format recognized by Biopython's SeqIO module can be used as input. 
 Note, this uses the '-', 'x', 'X', and '?' as a gap characters and will count all others. To change which characters are counted as gap characters, modify the list of gap characters in line 15.
  
-#Usage:   fasta_seq_length.py alignment_file file_format
+Usage:   fasta_seq_length.py alignment_file file_format
 
 Example: python sequences.phy phylip-relaxed
 Example: python sequences.fa fasta
