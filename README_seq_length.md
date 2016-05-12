@@ -8,4 +8,5 @@ Note, this uses the '-', 'x', 'X', and '?' as a gap characters and will count al
 Usage:   seq_length.py alignment_file file_format
 
 Example: python seq_length.py sequences.phy phylip-relaxed
+
 Example: python seq_length.py sequences.fa fasta
